@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="Develop/css/style.css" />
+    <link rel="stylesheet" href="./Develop/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -27,139 +27,108 @@
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
+      <p id="currentYear"class="lead"></p> 
     </header>
+
+    <!--9am-->
     <div class="container">
-      <!-- Timeblocks 1 -->
       <div class="row info">
-      <!-- Time column 1-->
       <div class="col-1 hour">
         <p class = "time" id = "9">9am</p>
         </div>
-      <!-- Task column 1--> 
       <textarea id = "1" class="col-10">
         </textarea> 
-      <!--Save column 1-->
       <button class="col-1 saveBtn fas fa-lock">
         </button>
     </div>
 
-    <div class="container">
-      <!-- Timeblocks 2 -->
+    <!--10am-->
       <div class="row info">
-      <!-- Time column 2-->
       <div class="col-1 hour">
-        <p class = "time" id = "10">10am</p>
+        <p id = "10">10am</p>
         </div>
-      <!-- Task column 2--> 
-      <textarea id = "2" class="col-10">
+      <textarea id = "2" name = "textData" class="col-10">
         </textarea> 
-      <!--Save column 2-->
+      <button class="col-1 saveBtn fas fa-lock">
+        </button>
+    </div>
+    <div>
+      
+    </div>
+
+    <!--11am-->
+      <div class="row info">
+      <div class="col-1 hour">
+        <p id = "11">11am</p>
+        </div>
+      <textarea id = "3" name = "textData" class="col-10">
+        </textarea> 
       <button class="col-1 saveBtn fas fa-lock">
         </button>
     </div>
 
-    <div class="container">
-      <!-- Timeblocks 3 -->
+      <!--12pm-->
       <div class="row info">
-      <!-- Time column 3-->
       <div class="col-1 hour">
-        <p class = "time" id = "11">11am</p>
+        <p id = "12">12pm</p>
         </div>
-      <!-- Task column 3--> 
-      <textarea id = "3" class="col-10">
+      <textarea id = "4" name = "textData" class="col-10">
         </textarea> 
-      <!--Save column 3-->
+      <button class="col-1 saveBtn fas fa-lock">
+        </button>
+    </div>
+  
+    <!--1pm-->
+    <div class="row info">
+      <div class="col-1 hour">
+        <p id = "1">1pm</p>
+        </div>
+      <textarea id = "5" name ="textData" class="col-10">
+        </textarea> 
       <button class="col-1 saveBtn fas fa-lock">
         </button>
     </div>
 
-    <div class="container">
-      <!-- Timeblocks 4 -->
-      <div class="row info">
-      <!-- Time column 4-->
+    <!--2pm-->
+    <div class="row info">
       <div class="col-1 hour">
-        <p class = "time" id = "12">12pm</p>
+        <p id = "2">2pm</p>
         </div>
-      <!-- Task column 4--> 
-      <textarea id = "4" class="col-10">
+      <textarea id = "6" name="textData" class="col-10">
         </textarea> 
-      <!--Save column 4-->
       <button class="col-1 saveBtn fas fa-lock">
         </button>
     </div>
 
-    <div class="container">
-      <!-- Timeblocks 5 -->
+    <!--3pm-->
       <div class="row info">
-      <!-- Time column 5-->
       <div class="col-1 hour">
-        <p class = "time" id = "1">1pm</p>
+        <p id = "3">3pm</p>
         </div>
-      <!-- Task column 5--> 
-      <textarea id = "5" class="col-10">
+      <textarea id = "7" name="textData" class="col-10">
         </textarea> 
-      <!--Save column 5-->
       <button class="col-1 saveBtn fas fa-lock">
         </button>
     </div>
 
-    <div class="container">
-      <!-- Timeblocks 6 -->
+    <!--4pm-->
       <div class="row info">
-      <!-- Time column 6-->
       <div class="col-1 hour">
-        <p class = "time" id = "2">2pm</p>
-        </div>
-      <!-- Task column 6--> 
-      <textarea id = "6" class="col-10">
-        </textarea> 
-      <!--Save column 6-->
+        <p id = "4">4pm</p>
+      </div> 
+      <textarea id = "8" name="textData" class="col-10">
+        </textarea>
       <button class="col-1 saveBtn fas fa-lock">
         </button>
     </div>
-
-
-<div class="container">
-      <!-- Timeblocks 7 -->
+ 
+    <!--5pm-->
       <div class="row info">
-      <!-- Time column 7-->
       <div class="col-1 hour">
-        <p class = "time" id = "3">3pm</p>
+        <p id = "5">5pm</p>
         </div>
-      <!-- Task column 7--> 
-      <textarea id = "7" class="col-10">
+      <textarea id = "9" name="textData" class="col-10">
         </textarea> 
-      <!--Save column 7-->
-      <button class="col-1 saveBtn fas fa-lock">
-        </button>
-    </div>
-
-    <div class="container">
-      <!-- Timeblocks 8 -->
-      <div class="row info">
-      <!-- Time column 8-->
-      <div class="col-1 hour">
-        <p class = "time" id = "4">4pm</p>
-        </div>
-      <!-- Task column 8--> 
-      <textarea id = "8" class="col-10">
-        </textarea> 
-      <!--Save column 8-->
-      <button class="col-1 saveBtn fas fa-lock">
-        </button>
-    </div>
-
-    <div class="container">
-      <!-- Timeblocks 9-->
-      <div class="row info">
-      <!-- Time column 9-->
-      <div class="col-1 hour">
-        <p class = "time" id = "5">5pm</p>
-        </div>
-      <!-- Task column 9--> 
-      <textarea id = "9" class="col-10">
-        </textarea> 
-      <!--Save column 9-->
       <button class="col-1 saveBtn fas fa-lock">
         </button>
     </div>
@@ -168,6 +137,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <!--Added for Custom js-->
-    <script src=".Develop/js/script.js"></script>
+    <script src="./Develop/js/script.js"></script>
   </body>
 </html>
